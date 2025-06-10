@@ -1,12 +1,11 @@
+
 import streamlit as st
 from coffee.client import JsonApiClient
-from coffee.workflows import ConstantPropertyWorkflow
 import sys
+sys.path.append('/opt/anaconda3/envs/myenvtest/lib/python3.10/site-packages')
+from coffee.workflows import ConstantPropertyWorkflow
 import tempfile
 import pandas as pd
-
-# Add package path
-sys.path.append('/opt/anaconda3/envs/myenvtest/lib/python3.10/site-packages')
 
 st.title("Constant Property Workflow – Create and Link in One Step")
 
