@@ -47,3 +47,4 @@ idna==3.6
 imagesize==1.4.1
 iniconfig==2.0.0
 cffi==1.15.1
+cffi==1.16.0
