@@ -1,4 +1,3 @@
-
 import streamlit as st
 from coffee.client import JsonApiClient
 import sys
